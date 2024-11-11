@@ -1,3 +1,4 @@
+## Advanced Prediction of Process Variables Using Deep Learning
 This project aims to predict critical process variables using deep learning, specifically using a Long Short-Term Memory (LSTM) model. By leveraging sequences of historical data, we predict future values of these variables and explore different input-output window configurations for optimal performance.
 
 Table of Contents
