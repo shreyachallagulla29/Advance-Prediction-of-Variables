@@ -35,9 +35,10 @@ Initial Configuration: We used 2 hours of data as input to predict the next 20 m
 Sampling Adjustments: To explore how a larger input-output window affects model performance, we expanded the time window to 6 hours of input and 1 hour of output by selecting every third row from the original dataset. This downsampling reduced the number of sequences from 900 to 300.
 To maintain consistency across datasets, we created three parallel datasets with staggered sequences:
 
-(0, 3, 6, …)
-(1, 4, 7, …)
-(2, 5, 8, …)
+  (0, 3, 6, …)
+  (1, 4, 7, …)
+  (2, 5, 8, …)
+  
 This helped preserve the data size while still benefiting from a longer time window.
 
 Experiments and Configurations
